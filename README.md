@@ -3,7 +3,7 @@ Dockerfile to create a devkitpro environment for nds and gba development.
 
 How to build:
 
-    docker built -t devkitpro .
+    docker build -t devkitpro .
 
 How to use:
 
