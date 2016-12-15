@@ -1,7 +1,7 @@
 # docker-devkitpro
-Dockerfile to create a devkitpro environment for nds and gba development.
+This is a modifications of nonameentername's docker file. This will download both devkitARM and devkitPRO perl scripts and install it within the container.
 
-How to build:
+How to build the container:
 
     docker build -t devkitpro .
 
