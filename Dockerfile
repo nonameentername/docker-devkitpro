@@ -33,3 +33,8 @@ RUN chmod +x ./install_update_scripts.sh && ./install_update_scripts.sh
 # Set up a place where the user can store the source code
 #
 WORKDIR /source
+
+#
+# Some symbol links
+#
+RUN ln -P $DEVKITARM/bin/3dslink /bin/3dslink 
